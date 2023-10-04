@@ -1,0 +1,26 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 24px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 128px;
+}
+
+.footer__time {
+    opacity: 0.2;
+    font-weight: 400;
+}
+
+.footer__text {
+    font-weight: 400;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        padding: 24px;
+        font-size: 16px;
+    }
+}
